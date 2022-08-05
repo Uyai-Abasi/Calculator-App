@@ -71,7 +71,7 @@ justify-content: flex-start;
 .display input{
     /* border: dotted darkmagenta; */
     width: 100%;
-    height: 90px;
+    height: 10vh;
     border-radius: 5px;
     padding: 15px;
     background-color: hsl(224, 36%, 15%);
@@ -84,7 +84,7 @@ justify-content: flex-start;
 }
 .keys{
     /* border: solid darkred; */
-    /* height: 40vh; */
+    height: 40vh;
     padding: 10px;
     margin-top: 20px;
     border-radius: 10px;
@@ -149,13 +149,13 @@ font-weight: bolder;
 @media only screen and (max-width: 600px) {
   body{
     background-color: hsl(222, 26%, 31%);
-    /* height: 100%; */
+    height: 100%;
     
 }
 .calculator{
     width: 350px;
-    /* border: solid red; */
     height: 100%;
+/* border: solid red; */
 margin: auto ;
 }
 
@@ -170,7 +170,7 @@ height: 90px;
 }
 .keys{
     /* border: solid blue; */
-    /* height: 100%; */
+    height: 100%;
     padding: 20px;
 }
     .row-1 button,

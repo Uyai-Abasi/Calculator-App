@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+
   <title>Frontend Mentor | Calculator app</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -21,59 +22,51 @@
   <div class="switch">
   <h6>THEME</h6>
   
-    <div class="tri-state-toggle">
-      <input class="button" type="radio" name="toggle" id="one" />
-      <!-- <input class="button" type="radio" name="toggle" id="two" />
-      <input class="button" type="radio" name="toggle" id="three" /> -->
-    </div>
+      <div class="tri-state-toggle">
+        <input class="toggle" type="radio" name="toggle" id="one" />
+        <input class="toggle" type="radio" name="toggle" id="two" />
+        <input class="toggle" type="radio" name="toggle" id="three" />
+      </div>
   
 </div>
 </div>
 <div class="display">
-<input type="button" name="display" id="display" value="399,981">
+<input type="text" placeholder="0" id="display" value="">
   
 </div>
 
 <div class="keys " >
   <div class="row-1">
-<button>7</button>
-<button>8</button>
-<button>9</button>
-<button class="delete"> DEL</button>
+<button class="btn" onclick="calc(7)">7</button>
+<button class="btn" onclick="calc(8)">8</button>
+<button class="btn" onclick="calc(9)">9</button>
+<button class="delete" onclick="del()"> DEL</button>
 </div>
 <div class="row-2">
-<button>4</button>
-<button>5</button>
-<button>6</button>
-<button class="addition">+</button>
+<button class="btn" onclick="calc(4)">4</button>
+<button class="btn" onclick="calc(5)">5</button>
+<button class="btn" onclick="calc(6)">6</button>
+<button class="btn" onclick="calc('+')">+</button>
 </div>
 <div class="row-3">
-<button>1</button>
-<button>2</button>
-<button>3</button>
-<button class="subtract">-</button>
+<button class="btn" onclick="calc(1)">1</button>
+<button class="btn" onclick="calc(2)">2</button>
+<button class="btn" onclick="calc(3)">3</button>
+<button class="btn"  onclick="calc('-')">-</button>
 </div>
 <div class="row-4">
-<button>. </button>
-<button>0</button>
-<button class="divide">/</button>
-<button class="multiply">x</button>
+<button class="btn" onclick="calc('.')">. </button>
+<button class="btn" onclick="calc(0)">0</button>
+<button class="btn" onclick="calc('/')">/</button>
+<button class="btn" onclick="calc('*')">x</button>
 </div>
 <div class="row-5">
-<input type="reset" value="RESET">
-<input type="button" value="=">
+<input class="reset" type="reset" value="RESET" onclick="reset()">
+<input class="equal" type="button" value="=" onclick="equal('=')">
 </div>
 </div>
 
-
-
 </div>
-
-
-
-
-
-
 
 
 
@@ -97,5 +90,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Uyai-abasi isidore</a>.
   </div>
+  <script src="/calculator-app-main/script.js"></script>
 </body>
 </html>

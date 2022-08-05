@@ -29,7 +29,7 @@ The designs were created to the following widths:
 - Grayish orange (key shadow): hsl(28, 16%, 65%)
 
 #### Text
-
+00000000000000000000
 - Very dark grayish blue: hsl(221, 14%, 31%)
 - White: hsl(0, 0, 100%)
 
@@ -37,8 +37,8 @@ The designs were created to the following widths:
 
 #### Backgrounds
 
-- Light gray (main background): hsl(0, 0%, 90%)
-- Grayish red (toggle background, keypad background): hsl(0, 5%, 81%)
+- Light gray (main background): 
+- Grayishsl(0, 0%, 90%)h red (toggle background, keypad background): hsl(0, 5%, 81%)
 - Very light gray (screen background): hsl(0, 0%, 93%)
 
 #### Keys
